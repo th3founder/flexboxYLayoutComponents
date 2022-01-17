@@ -18,3 +18,14 @@
 .box2::after{
     content: counter(flex-items);   
 }
+
+.box3{
+    border: 3px dashed #8308db;
+    display: flex;
+    block-size: 300px;
+    margin-top: 3rem;
+}
+
+.box3 > .box{
+    block-size: auto;
+}
