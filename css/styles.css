@@ -1,0 +1,20 @@
+.box{
+    padding: 1rem;
+    border: 3px dashed #db086f;
+    counter-increment: flex-items;
+    display: inline-flex;
+}
+
+.box::after{
+    content: counter(flex-items);
+}
+
+.box2{
+    padding: 1rem;
+    border: 3px dashed #0844db;
+    counter-increment: flex-items;
+    display: flex;
+}
+.box2::after{
+    content: counter(flex-items);   
+}
