@@ -1,0 +1,41 @@
+.flex{
+    display: flex;
+    background-color: purple;
+}
+
+.wrapper .flex > *{
+/*     border: 1px solid  aquamarine ;
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 100px;
+    padding: 1rem;
+ */
+
+
+}
+
+/* .wrapper .flex > p{
+    flex-grow: 1;
+    border: 1px solid green;
+    flex-basis: 50px;
+
+}
+ */
+/* El calculo para flex basis y flex grwo es, (tamaño del container - tamaño de la suma de los elementos) / cantidad de elementos */
+/* (1024 - 250)/ 3 = 258 + La base flexible de cada uno */
+
+.wrapper .flex > img{
+    inline-size: 400px;
+    flex-shrink: 0;
+}
+
+.flex > div{
+    border: 2px solid white;
+    /* flex-grow: 1; */
+/*     flex-basis: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+ */    
+    flex: 1; /* esta engloba las 3 anteriores */
+}
+
