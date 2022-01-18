@@ -1,0 +1,10 @@
+
+.displayFlex{
+    border: 2px solid yellow;
+    display: flex;
+    overflow: auto;
+}
+
+.displayFlex .box + .box{ /* Caja que este alado de una caja, recibira estas propiedades */
+    margin-inline-start: 1rem;
+}

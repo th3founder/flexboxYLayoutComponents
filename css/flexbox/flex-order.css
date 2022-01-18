@@ -1,0 +1,22 @@
+.flexOrder{
+    display: flex;
+    gap: 5rem;
+}
+
+.flexOrder img{
+    border-radius: 50%;
+
+}
+
+.flexOrder:nth-child(even) p{ /* Se puede remplazar even por odd para hacer lo contrario */
+    border: 2px solid white;
+    border-left-color: red;
+    order: 1; /* La propiedad order de los flex-items ayudarn a alinear los elementos que se tienen pod dentro */
+}
+
+.flexOrder:nth-child(even) img{
+    order: 2;
+}
+
+/* Otro metodo de organizar los elementos seria colocar al primer elemento p un order: -1, y quitar el order: 2... */
+
