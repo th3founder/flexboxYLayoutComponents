@@ -1,0 +1,21 @@
+/* Menu align items */
+.alignItems{
+    display: flex;
+    max-inline-size: 200px;
+    border: 2px solid red;
+    flex-direction: column;
+}
+
+.alignItems img{
+    inline-size: 100px;
+}
+
+.alignItems img:nth-child(odd){
+    align-self: flex-end;
+}
+
+.alignItems img:nth-of-type(1){
+    align-self: center;
+    border-radius: 50%;
+    margin-block-end: 2rem;
+}

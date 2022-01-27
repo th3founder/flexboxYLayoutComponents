@@ -1,31 +1,34 @@
-.box{
-    padding: 1rem;
-    border: 3px dashed #db086f;
-    counter-increment: flex-items;
-    display: inline-flex;
+@import url('./icons.css');
+@import url('./fonts.css');
+@import url('./body.css');
+@import url('./link.css');
+@import url('./button-icon.css');
+
+
+:root{
+    --primary: #00B050;
+    --white: white;
+    --gray10: #B3B3B3;
+    --gray20: #737373;
+    --gray30: #282828;
+    --gray40: #181818;
+    --gray50: #121212;
+    --gray60: #000000;
+    --baseFontFamily: Avenir,Helvetica,sans-serif;
+    --headLine1: bold 2rem/normal var(--baseFontFamily);
+    --headLine2: bold 1.5rem/1.75rem var(--baseFontFamily);
+    --baseFont: normal .875rem/1.375rem var(--baseFontFamily);
+    --baseFontBold: bold .875rem/1.375rem var(--baseFontFamily);
+    --button: bold .875rem/1rem var(--baseFontFamily);
+    --small: normal .75em/normal var(--baseFontFamily);
+
 }
 
-.box::after{
-    content: counter(flex-items);
+body{
+    font-family: var(--baseFontFamily);
 }
 
-.box2{
-    padding: 1rem;
-    border: 3px dashed #0844db;
-    counter-increment: flex-items;
-    display: flex;
-}
-.box2::after{
-    content: counter(flex-items);   
+.p{
+    font-family: var(--headLine1);
 }
 
-.box3{
-    border: 3px dashed #8308db;
-    display: flex;
-    block-size: 300px;
-    margin-top: 3rem;
-}
-
-.box3 > .box{
-    block-size: auto;
-}

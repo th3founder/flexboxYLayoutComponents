@@ -1,0 +1,34 @@
+.buttonIcon{
+    background-color: transparent;
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: var(--gray10);
+}
+
+.buttonIcon.is-white{
+    background-color: var(--white);
+    color: var(--gray50);
+}
+
+
+.buttonIcon.is-primary{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.buttonIcon .icon-play{
+    position: relative;/* Acomodamos el icono de play para centrarlo */
+    left: 1px;
+    top: 1px;
+}
+
+.buttonIcon:hover:is([class*='is-']){
+    box-shadow: 0 8px 8px rgb(0, 0,0,.3 );
+}
+
+.buttonIcon:active{
+    transform: scale(.95); /* Hace que el elemento cambie de tamaño al hacer click */
+}

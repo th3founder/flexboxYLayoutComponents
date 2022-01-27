@@ -3,6 +3,8 @@
 @import url('./flex-direction.css');
 @import url('./flex-wrap.css');
 @import './flex.css';
+@import url('./justify-content.css');
+@import url('./align-items.css');
 
 :root{
     --darkColor: #04001e;
@@ -20,6 +22,10 @@ body{
 a{
     color: var(--lightColor);
     text-decoration: none;
+}
+
+li{
+    list-style: none;
 }
 
 .wrapper{

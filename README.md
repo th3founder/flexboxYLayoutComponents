@@ -14,3 +14,18 @@ al momento de que estamos programando nuestro sitio encontraremos dos propiedade
 Existen 2 versiones que veremos el Eje principal (main axis) y el Eje transversal (cross axis), El eje principal puede cambiar al lugar del cross axis y cross axis al eje de main axis.
 
 
+#####
+
+# Proyecto
+Cuando estemos construyendo nuestro proyecto nos encontraremos con buenas maneras de desarrollas codigo que nos permitan ser mas profesionales cuando programamos
+
+Buenas practicas del inicio:
+
+# Iconos
+-crear una carpeta para iconos
+-Descargar nuestros iconos en svg, esto es para si queremos hacerlos responsivos se puedan estirar más facil o simplemente enpng
+-Iremos al sitio icomoon.io
+-Agregaremos nuestros iconos y les quitamos el fondo o lo que queramos y despues los descargamos como fuente
+-Creamos una carpeta de fonts y agregamos el contenido de la carpeta fonts que se descargo
+-copiamos los estilos de la carpeta style.css que se descargo y creamos o agregamos a nuestra hoja de estilos para iconos el codigo que incluia el archivo.
+
