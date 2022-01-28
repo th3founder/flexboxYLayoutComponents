@@ -1,0 +1,10 @@
+.ellipsis{
+    overflow: hidden;
+}
+
+.ellipsis > * {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Hace que el texto que se sale del contenedor o de su etiqueta padre no se salga colocando ... como si hubiera continuidad */
+}

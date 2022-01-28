@@ -3,6 +3,16 @@
 @import url('./body.css');
 @import url('./link.css');
 @import url('./button-icon.css');
+@import url('./sidebar.css');
+@import url('./elipsis.css');
+@import url('./slider.css');
+@import url('./player-controls.css');
+@import url('./player-playback.css');
+@import url('./player-volumen.css');
+@import url('./player.css');
+@import url('./now-playing.css');
+
+
 
 
 :root{
@@ -32,3 +42,6 @@ body{
     font-family: var(--headLine1);
 }
 
+span{
+    font-family: var(--baseFontFamily); 
+}
