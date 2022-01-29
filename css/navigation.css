@@ -1,0 +1,29 @@
+.navigation{
+    border: 1px solid blue;
+    flex-shrink: 0;
+}
+
+.navigation button{
+    background: var(--gray60);
+    color: var(--gray10);
+    border: 1px solid red;
+    inline-size: 1.85rem;
+    block-size: 1.85rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.navigation button:disabled{/* PAra nuestra etiqueta button que tiene disbled */
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.navigation-prev i{
+    position: relative;
+    left: -1px;
+}
+
+.navigation-next i{
+    position: relative;
+    left: 2px;
+}
