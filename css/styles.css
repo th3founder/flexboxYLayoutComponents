@@ -11,11 +11,13 @@
 @import url('./player-volumen.css');
 @import url('./player.css');
 @import url('./now-playing.css');
-
-
+@import url('./playlist-a.css');
+@import url('./playlist-b.css');
+@import url('./playlist-list.css');
 
 
 :root{
+    font-size: 16px;
     --primary: #00B050;
     --white: white;
     --gray10: #B3B3B3;

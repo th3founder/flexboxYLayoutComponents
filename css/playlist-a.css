@@ -1,0 +1,58 @@
+.playListA{
+    inline-size: 11.3rem;
+    padding: 1rem;
+    border-radius: .25rem;
+    background: var(--gray40);
+    box-sizing: border-box;
+    transition: .3s background;
+
+}
+
+.playListA:hover, .playListA:focus-within{
+    cursor: pointer;
+    background: var(--gray30);
+}
+.playlistA-cover{
+    position: relative;
+    border-radius: .75rem;
+    overflow: hidden;
+    margin-block-end: 1rem;
+}
+
+.playlistA-cover img{
+    vertical-align: middle; /* ajusta el absolute del button para que el boton no se salga del margen */
+    inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+}
+
+.playlistA-cover button{
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+    opacity: 0;
+    transform: translateY(.5rem);
+    transition: .3s opacity, .3s transform;
+
+    will-change: opacity, transform;
+}
+
+
+.playListA:hover .playlistA-cover button, .playListA:focus-within .playlistA-cover button{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+
+.playlistA-title{
+    font: var(--baseFontBold);
+    color: var(--white);
+    margin: 0;
+}
+
+.playlistA-description{
+    font: var(--baseFontFamily);
+    margin: 0;
+}
+
