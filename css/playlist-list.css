@@ -27,6 +27,10 @@
 .plc1{
     margin-block-end: 1rem;
 }
+.plc2{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 .playlistList-container > *{
     flex-shrink: 0;
