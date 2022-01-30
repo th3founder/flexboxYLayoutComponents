@@ -20,7 +20,7 @@
 
 
 :root{
-    font-size: 16px;
+    font-size: 14px;
     --primary: #00B050;
     --white: white;
     --gray10: #B3B3B3;
@@ -49,4 +49,16 @@ body{
 
 span{
     font-family: var(--baseFontFamily); 
+}
+
+@media screen and (min-width: 1024px) {
+    :root{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    :root{
+        font-size: 18px;
+    }
 }
