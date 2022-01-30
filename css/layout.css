@@ -6,7 +6,6 @@
 }
 
 .layout{
-    box-shadow: inset 0 0 10px red;
     min-inline-size: var(--minInlineSize);
 }
 
@@ -16,6 +15,7 @@
     overflow: auto;
     flex-shrink: 0;
     min-block-size: var(--minBlockSize);
+    background-color: var(--gray60);
 }
 
 .layout-main{
