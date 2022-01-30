@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Hace un defuminado en el header*/
+}
+
+@supports not(backdrop-filter:blur(5px)){ /*  */
+    .header{
+        background-color: var(--gray50);
+    }
+}

@@ -1,12 +1,10 @@
 .navigation{
-    border: 1px solid blue;
     flex-shrink: 0;
 }
 
 .navigation button{
     background: var(--gray60);
     color: var(--gray10);
-    border: 1px solid red;
     inline-size: 1.85rem;
     block-size: 1.85rem;
     border-radius: 50%;

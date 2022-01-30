@@ -11,11 +11,9 @@
 @import url('./player-volumen.css');
 @import url('./player.css');
 @import url('./now-playing.css');
-@import url('./playlist-a.css');
-@import url('./playlist-b.css');
-@import url('./playlist-list.css');
-@import url('./search.css');
-@import url('./navigation.css');
+@import url('./page.css');
+@import url('./layout.css');
+
 
 
 

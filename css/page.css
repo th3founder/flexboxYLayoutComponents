@@ -1,0 +1,24 @@
+@import url('./playlist-a.css');
+@import url('./playlist-b.css');
+@import url('./playlist-list.css');
+@import url('./search.css');
+@import url('./navigation.css');
+@import url('./header.css');
+@import url('./sticky.css');
+
+.page{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.page-block{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.page .header{
+    margin-block-end: 1rem;
+    margin-inline-end: -2rem;
+    margin-inline-start: -2rem;
+}
