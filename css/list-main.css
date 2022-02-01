@@ -1,0 +1,81 @@
+.list-main{
+    background-image: url('../src/badb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    inline-size: 100%;
+}
+
+.album-block{
+}
+
+.album-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 5rem;
+}
+
+.album-info >* {
+    color: var(--white);
+}
+
+.album-info h3{
+    font-size: 1.6rem;
+}
+
+.album-info p,span{
+    font-size: .87rem;
+    margin: 0;
+}
+
+.album-info button{
+    background-color: var(--primary);
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+.album-info button:active{
+    transform: scale(0.95);
+}
+
+/* List */
+.album-list{
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+}
+.filter span{
+    margin-left: 0.5rem;
+}
+
+.info-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0.3rem 0;
+
+}
+.info-content > *{
+    margin: 0;
+    flex: 1;
+}
+
+.info-content p{
+    flex: 3;
+}
+.info-content__title{
+    margin-left: 5rem;
+}
+
+.icon-calendar{
+}
+.icon-clock{
+}

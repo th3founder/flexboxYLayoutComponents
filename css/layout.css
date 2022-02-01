@@ -16,13 +16,14 @@
     flex-shrink: 0;
     min-block-size: var(--minBlockSize);
     background-color: var(--gray60);
+    
+    
 }
 
 .layout-main{
     block-size: calc(100vh - var(--bottomSize));
     min-block-size: var(--minBlockSize);
     overflow: auto;
-    
 }
 
 .layout-bottom{
